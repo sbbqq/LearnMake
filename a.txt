@@ -1,0 +1,2 @@
+c.txt: b.txt
+	cat b.txt > c.txt
