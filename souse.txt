@@ -1,0 +1,3 @@
+source.txt:
+ 	echo "this is changed by echo" > source.txt
+

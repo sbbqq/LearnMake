@@ -1,2 +1,7 @@
+.ONESHELL:
+txt= hello,wqq
 hello.txt:
-	"1+2" >hello.txt
+	cat * >hello.txt
+test:
+	@echo $(txt)
+
